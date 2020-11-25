@@ -23,8 +23,8 @@
  $serverName = "simplewebtp050399.database.windows.net";
  $connectionOptions = array(
  "Database" => "simpleweb",
- "Uid" => "simpleweb",
- "PWD" => "Simple@web");
+ "Uid" => "apuadmin",
+ "PWD" => "HibariKyoya.1");
 
 //Establishes the connection
  $conn = sqlsrv_connect($serverName, $connectionOptions);

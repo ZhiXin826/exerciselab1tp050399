@@ -24,7 +24,7 @@
  $connectionOptions = array(
  "Database" => "simpleweb",
  "Uid" => "apuadmin",
- "PWD" => "HibariKyoya.1");
+ "PWD" => "apuadmin");
 
 //Establishes the connection
  $conn = sqlsrv_connect($serverName, $connectionOptions);

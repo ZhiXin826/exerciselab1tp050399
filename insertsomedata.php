@@ -3,9 +3,9 @@
 
 // SQL Server Extension Sample Code:
 
-$connectionInfo = array("UID" => "apuadmin", "pwd" => "Apu@123456", "Database" => "simpleweb", "LoginTimeout" => 30, "Encrypt" => 1, "TrustServerCertificate" => 0);
+$connectionInfo = array("UID" => "apuadmin", "pwd" => "HibariKyoya.1", "Database" => "simpleweb", "LoginTimeout" => 30, "Encrypt" => 1, "TrustServerCertificate" => 0);
 
-$serverName = "tcp:simplewebtp000001.database.windows.net,1433";
+$serverName = "tcp:simplewebtp050399.database.windows.net,1433";
 
 $conn = sqlsrv_connect($serverName, $connectionInfo);
 

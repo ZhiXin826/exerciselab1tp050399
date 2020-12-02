@@ -19,12 +19,13 @@
  <th>Menara Standard Chartered, TPM</th>
  <th>03-22441234</th>
  </tr>
+  
  <?php
  $serverName = "simplewebtp050399.database.windows.net";
  $connectionOptions = array(
  "Database" => "simpleweb",
  "Uid" => "apuadmin",
- "PWD" => "apuadmin");
+ "PWD" => "HibariKyoya.1");
 
 //Establishes the connection
  $conn = sqlsrv_connect($serverName, $connectionOptions);
@@ -41,6 +42,10 @@ if (!$conn)
  {
  die(sqlsrv_errors());
  }
+ else
+ {
+    echo "<scipt>alert('Success')</scipt>
+ }
 
  while ($row = sqlsrv_fetch_array($getResults, SQLSRV_FETCH_ASSOC))
  {
@@ -53,6 +58,7 @@ if (!$conn)
  }
  sqlsrv_free_stmt($getResults);
 ?> 
+  
  </table>
  </center>
  </body>

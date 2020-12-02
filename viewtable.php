@@ -42,10 +42,6 @@ if (!$conn)
  {
  die(sqlsrv_errors());
  }
- else
- {
-    echo "<scipt>alert('Success')</scipt>
- }
 
  while ($row = sqlsrv_fetch_array($getResults, SQLSRV_FETCH_ASSOC))
  {
